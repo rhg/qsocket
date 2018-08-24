@@ -1,6 +1,7 @@
-QT = core network qml
+QT += network qml
 
-TEMPLATE = lib
+INCLUDEPATH += $$PWD/
+VPATH += $$PWD/
 
 SOURCES += \
   serverhandler.cpp \
@@ -9,6 +10,5 @@ SOURCES += \
 HEADERS += \
   serverhandler.h
 
-VERSION = 0.1.0
-
+VERSION = 0.1.1
 TARGET = socket
