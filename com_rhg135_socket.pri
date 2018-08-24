@@ -8,3 +8,7 @@ SOURCES += \
 
 HEADERS += \
   serverhandler.h
+
+VERSION = 0.1.0
+
+TARGET = socket
